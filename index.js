@@ -1,11 +1,14 @@
-let count = 5 + 3;
+let count = 5 + 3 ;
 
-console.log(count)
+console.log(count);
 
-let myAge = 22;
-let humanDogRatio = 7;
-let myDogAge = myAge * humanDogRatio;
+let bonusPoints = 50;
+bonusPoints = bonusPoints + 50;
 
-console.log(myDogAge);
-console.log(myAge);
+console.log(bonusPoints);
 
+bonusPoints = bonusPoints - 25;
+console.log(bonusPoints);
+
+bonusPoints = bonusPoints + 25;
+console.log(bonusPoints);
