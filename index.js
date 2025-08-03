@@ -1,14 +1,12 @@
-let count = 5 + 3 ;
+let countEl = document.getElementById("count-el");
+countEl.innerText = 0;
+let count = 0;
 
-console.log(count);
+function increment() {
+    //count = count + 1;
+    count++;
+    countEl.innerText = count;
+    console.log(count);
+}
 
-let bonusPoints = 50;
-bonusPoints = bonusPoints + 50;
-
-console.log(bonusPoints);
-
-bonusPoints = bonusPoints - 25;
-console.log(bonusPoints);
-
-bonusPoints = bonusPoints + 25;
-console.log(bonusPoints);
+increment();
