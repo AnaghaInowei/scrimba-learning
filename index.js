@@ -5,15 +5,16 @@ let count = 0;
 
 function increment() {
     // count = count + 1;
-    count++;
-    countEl.innerText = count;
+    // count++;
+    count += 1;
+    countEl.textContent = count;
 }
 
 function save() {
     let countStr = count + " - ";
     console.log(countStr);
-    saveEl.innerText += countStr;
-    countEl.innerText = 0;
+    saveEl.textContent += countStr;
+    countEl.textContent = 0;
     count = 0;
 }
 save();
